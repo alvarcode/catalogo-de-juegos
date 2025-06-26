@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-texto: #fff;
+  --color-fondo: #1a1d20;
+  --secundario: #24282c;
+  --terciario: #15171a;
+  font-size: 14px;
+}
+
+body {
+  padding: 1.5em 2em;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(200px, 20%) 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas:
+    "title title"
+    "navbar navbar"
+    "sidebar main";
+  row-gap: 2em;
+}
+
+h1 {
+  /* color: red; */
+  font-family: "Press Start 2P", system-ui;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  grid-area: title;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  line-height: 1.7em;
+}
+
+.navbar {
+  width: max-content;
+  grid-area: navbar;
+  background-color: var(--secundario);
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+  display: flex;
+  gap: 0.4em;
+}
+
+.navbar a {
+  flex: auto;
+  text-align: center;
+  padding: 0.5em 2em;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-out;
+}
+
+.navbar a:hover:not(.active) {
+  scale: 1.2;
+  font-weight: 700;
+}
+
+.navbar .mc:hover {
+  color: #00ff00;
+}
+
+.navbar .ssb:hover {
+  color: #ff3c28;
+}
+
+.navbar .hk:hover {
+  color: #6be0ff;
+}
+
+.navbar .tf:hover {
+  color: #ffd700;
+}
+
+.navbar .tr:hover {
+  color: #1ba1e2;
+}
+
+.navbar a.active {
+  background-color: white;
+  color: var(--color-fondo);
+  font-weight: 600;
+}
+
+.indice {
+  grid-area: sidebar;
+}
+
+.desplazador {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.indice > h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.enlaces-secciones > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.enlaces-secciones li {
+  line-height: 1.7em;
+}
+
+.enlaces-secciones li:hover {
+  text-decoration: underline;
+}
+
+/* página  */
+
+.pagina {
+  grid-area: main;
+  padding: 4em;
+  background-color: var(--terciario);
+  border-radius: 1em;
+  scroll-behavior: smooth;
+}
+
+.logo-juego {
+  min-width: 20vw;
+  height: 20vw;
+  display: inline-block;
+  border-radius: 1.4em;
+}
+
+.titulo-juego {
+  font-size: 2rem;
+}
+
+.pagina > .seccion {
+  margin-top: 50px;
+}
+
+#inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5em;
+  text-align: center;
+}
+
+.pagina .titulo {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contenedor-elementos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.contenedor-elementos > .elemento {
+  background-color: var(--secundario);
+  padding: 1em;
+  border: 1px solid #43474b;
+  border-radius: 0.5em;
+  width: 15%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.7em;
+  transition: box-shadow 0.3s;
+  text-align: center;
+}
+
+.contenedor-elementos > .elemento:hover {
+  box-shadow: 0 0 2em #212325;
+}
+
+.elemento img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: scale 0.3s ease-in-out;
+}
+
+.elemento img:hover {
+  scale: 1.2;
+}

@@ -1,0 +1,102 @@
+{
+  "smash-bros": {
+    "modos": [
+      {
+        "nombre": "1P Game (Classic Mode)",
+        "url_imagen": "",
+        "descripcion": "Una travesía en solitario donde el jugador enfrenta una mezcla de enemigos icónicos, minijuegos y un combate final épico contra Master Hand."
+      },
+      {
+        "nombre": "Versus",
+        "url_imagen": "",
+        "descripcion": "El modo clásico de batalla donde los amigos se convierten en rivales. Ideal para demostrar quién manda en el sofá."
+      },
+      {
+        "nombre": "Entrenamiento",
+        "url_imagen": "",
+        "descripcion": "Un campo de pruebas donde puedes experimentar con combos, estudiar a tus oponentes o simplemente lanzar a Luigi por los aires."
+      },
+      {
+        "nombre": "Bonus Stages",
+        "url_imagen": "",
+        "descripcion": "Retos únicos como \"Rompe los objetivos\" y \"Sube a las plataformas\", perfectos para pulir tus habilidades y probar tu precisión."
+      }
+    ],
+    "personajes": [
+      {
+        "nombre": "Mario",
+        "url_imagen": "https://www.smashbros.com/wiiu-3ds/sp/images/character/mario/main.png",
+        "descripcion": "El fontanero más famoso del mundo, equilibrado y versátil, siempre listo para lanzar una bola de fuego o dar una poderosa patada giratoria."
+      },
+      {
+        "nombre": "Donkey Kong",
+        "url_imagen": "https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/main.png",
+        "descripcion": "El rey de la selva. Fuerte y pesado, capaz de aplastar enemigos con sus poderosos puños y lanzar barriles imaginarios con estilo."
+      },
+      {
+        "nombre": "Link",
+        "url_imagen": "https://images.wikidexcdn.net/mwuploads/esssbwiki/thumb/3/32/latest/20230118170552/Link_SSB4.png/800px-Link_SSB4.png",
+        "descripcion": "El héroe de Hyrule. Armado con espada, bumerán y bombas, es tan estratégico como valiente."
+      },
+      {
+        "nombre": "Samus",
+        "url_imagen": "",
+        "descripcion": "La cazadora galáctica con un traje blindado, misiles, rayos cargados y una movilidad sorpresiva."
+      },
+      {
+        "nombre": "Yoshi",
+        "url_imagen": "",
+        "descripcion": "La cazadora galáctica con un traje blindado, misiles, rayos cargados y una movilidad sorpresiva."
+      },
+      {
+        "nombre": "Kirby",
+        "url_imagen": "",
+        "descripcion": "Una bolita rosa capaz de absorber habilidades. Inocente en apariencia, mortal en combate."
+      },
+      {
+        "nombre": "Fox",
+        "url_imagen": "",
+        "descripcion": "El piloto espacial veloz, maestro de los reflejos y experto en ataques rápidos y certeros."
+      },
+      {
+        "nombre": "Pikachu",
+        "url_imagen": "",
+        "descripcion": "La electrizante mascota de Pokémon. Pequeño pero peligroso, con rayos que pueden fulminar hasta al más grande."
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Peach's Castle",
+        "url_imagen": "",
+        "descripcion": "Una torre colorida con plataformas móviles, trampolines y un bloque sorpresa que puede cambiar el curso del combate."
+      },
+      {
+        "nombre": "Hyrule Castle",
+        "url_imagen": "",
+        "descripcion": "Un bastión legendario con muchos niveles, perfecto para combates caóticos. Cuidado con el torbellino que aparece de vez en cuando."
+      },
+      {
+        "nombre": "Sector Z",
+        "url_imagen": "",
+        "descripcion": "Combate en la nave Great Fox en el espacio. Los láseres enemigos y el amplio escenario hacen que siempre debas estar en movimiento."
+      }
+    ],
+    "items": [
+      {
+        "nombre": "Beam Sword",
+        "url_imagen": "",
+        "descripcion": "Brilla con energía y extiende su alcance con cada golpe fuerte. Ideal para los que quieren pelear con estilo galáctico."
+      },
+      {
+        "nombre": "Pokeball",
+        "url_imagen": "",
+        "descripcion": "Al lanzarla, invoca un Pokémon salvaje que entra en acción, desde un explosivo Electrode hasta el lento pero molesto Snorlax."
+      },
+      {
+        "nombre": "Heart Container",
+        "url_imagen": "",
+        "descripcion": "Brilla con esperanza y recuperación. Restaura una gran parte del daño recibido y puede cambiar completamente el destino de la batalla."
+      }
+    ]
+  }
+}

@@ -35,7 +35,11 @@
     <!-- Contenido de página -->
     <div class="desplazador pagina">
       <section id="inicio" class="seccion">
-        <img src="" alt="Logo del juego" class="logo-juego" />
+        <img
+          src="https://1000marcas.net/wp-content/uploads/2021/02/Super-Smash-Bros-Logo-2008.png"
+          alt="Logo del juego"
+          class="logo-juego"
+        />
         <h2 class="titulo-juego">Super Smash Bros</h2>
 
         <p class="descripcion">
@@ -46,21 +50,55 @@
         </p>
       </section>
 
-      <section id="seccion-1" class="seccion">
-        <h3 class="titulo">Sección 1</h3>
+      <section id="personajes" class="seccion">
+        <h3 class="titulo">Personajes</h3>
 
         <div class="contenedor-elementos">
           <article class="elemento">
-            <img src="" alt="Imagen" />
-            <h4>Nombre</h4>
+            <img
+              src="https://www.smashbros.com/wiiu-3ds/sp/images/character/mario/main.png"
+              alt="Imagen de Mario"
+            />
+            <h4>Mario</h4>
           </article>
 
           <article class="elemento">
-            <img src="" alt="Imagen" />
-            <h4>Nombre</h4>
+            <img
+              src="https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/main.png"
+              alt="Imagen DK"
+            />
+            <h4>Donkey Kong</h4>
+          </article>
+
+          <article class="elemento">
+            <img
+              src="https://images.wikidexcdn.net/mwuploads/esssbwiki/thumb/3/32/latest/20230118170552/Link_SSB4.png/800px-Link_SSB4.png"
+              alt="Imagen de Link"
+            />
+            <h4>Link</h4>
           </article>
         </div>
       </section>
     </div>
+
+    <!-- permite usar el modal -->
+    <script type="module">
+      import modal from "../componentes/detalle-elemento/detalle-elemento.js";
+
+      document.querySelectorAll(".pagina > .seccion").forEach((seccion, i) => {
+        if (i == 0) return;
+
+        document
+          .querySelectorAll(`#${seccion.id} .elemento`)
+          .forEach((elemento, i) =>
+            elemento.addEventListener(
+              "click",
+              () => modal.mostrar("smash-bros", seccion.id, i) // ajustar según nombre de juego en JSON
+            )
+          );
+      });
+
+      modal.cargar();
+    </script>
   </body>
 </html>

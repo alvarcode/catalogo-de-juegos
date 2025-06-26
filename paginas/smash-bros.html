@@ -35,6 +35,7 @@
     <!-- Contenido de página -->
     <div class="desplazador pagina">
       <section id="inicio" class="seccion">
+
         <img src="https://www.clipartmax.com/png/full/204-2043960_default-super-smash-bros-wii-u-symbol-on-fire-png-by-super.png" alt="Logo del juego" class="logo-juego" />
         <h2 class="titulo-juego">Super Smash Bros</h2>
 
@@ -129,5 +130,25 @@
         </div>
       </section>
     </div>
+
+    <!-- permite usar el modal -->
+    <script type="module">
+      import modal from "../componentes/detalle-elemento/detalle-elemento.js";
+
+      document.querySelectorAll(".pagina > .seccion").forEach((seccion, i) => {
+        if (i == 0) return;
+
+        document
+          .querySelectorAll(`#${seccion.id} .elemento`)
+          .forEach((elemento, i) =>
+            elemento.addEventListener(
+              "click",
+              () => modal.mostrar("smash-bros", seccion.id, i) // ajustar según nombre de juego en JSON
+            )
+          );
+      });
+
+      modal.cargar();
+    </script>
   </body>
 </html>

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +43,10 @@ h1 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+p {
+  line-height: 1.7em;
 }
 
 .navbar {
@@ -135,10 +138,9 @@ a {
 }
 
 .logo-juego {
-  aspect-ratio: 1 / 1;
-  width: 20%;
+  min-width: 20vw;
+  height: 20vw;
   display: inline-block;
-  background-color: tomato;
   border-radius: 1.4em;
 }
 
@@ -184,4 +186,5 @@ a {
   display: inline-block;
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }

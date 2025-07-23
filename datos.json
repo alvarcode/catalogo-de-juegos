@@ -1,102 +1,47 @@
 {
-  "smash-bros": {
-    "modos": [
-      {
-        "nombre": "1P Game (Classic Mode)",
-        "url_imagen": "",
-        "descripcion": "Una travesía en solitario donde el jugador enfrenta una mezcla de enemigos icónicos, minijuegos y un combate final épico contra Master Hand."
-      },
-      {
-        "nombre": "Versus",
-        "url_imagen": "",
-        "descripcion": "El modo clásico de batalla donde los amigos se convierten en rivales. Ideal para demostrar quién manda en el sofá."
-      },
-      {
-        "nombre": "Entrenamiento",
-        "url_imagen": "",
-        "descripcion": "Un campo de pruebas donde puedes experimentar con combos, estudiar a tus oponentes o simplemente lanzar a Luigi por los aires."
-      },
-      {
-        "nombre": "Bonus Stages",
-        "url_imagen": "",
-        "descripcion": "Retos únicos como \"Rompe los objetivos\" y \"Sube a las plataformas\", perfectos para pulir tus habilidades y probar tu precisión."
-      }
+  "the-forest": {
+    "armas": [
+      "La Katana en The Forest es un arma cuerpo a cuerpo rápida y letal, perfecta para jugadores que prefieren esquivar y atacar con agilidad. Se encuentra en la Cueva 1 (Dead Cave), clavada en una roca entre cadáveres y huesos, lo que la hace accesible desde el inicio del juego. Aunque su daño no es el más alto, su velocidad de ataque y bajo consumo de resistencia la convierten en una gran opción contra caníbales y enemigos pequeños.",
+      "El Hacha Moderna en The Forest es una de las armas más eficientes, combinando alto daño, velocidad aceptable y buena durabilidad. Se encuentra en la Cueva 2 (Hanging Cave), un lugar peligroso lleno de mutantes, por lo que se recomienda ir preparado con antorchas y el hacha de escalada. Aunque no es fácil de conseguir al inicio, su rendimiento en combate la convierte en una de las mejores opciones para enfrentarse a enemigos fuertes.",
+      "El Arco Moderno en The Forest es un arma de largo alcance extremadamente útil para cazar y combatir enemigos a distancia. Se puede obtener en el Yate abandonado (ubicado en la costa suroeste del mapa) o dentro de algunas cuevas, como la Cueva 7. Requiere flechas como munición, las cuales pueden ser recuperadas o fabricadas con palos y plumas. \nEste arco destaca por su precisión y daño moderado, siendo ideal para eliminar enemigos sigilosamente sin alertar a otros caníbales. Es especialmente efectivo contra mutants si se apunta a la cabeza, permitiendo eliminarlos desde una posición segura. Además, las flechas incendiarias (creadas con trapos y alcohol) aumentan su daño significativamente, haciendo del arco una herramienta versátil en combate.",
+      "El machete en the forest es considerado una arma de doble filo, ya que este tiene casi los mismo atributos que la katana, pero es demasiado corta, lo que hace muy dificil su manejo aun peor con un muntante de gran tamaño, considerada no tan buena por eso."
     ],
-    "personajes": [
-      {
-        "nombre": "Mario",
-        "url_imagen": "https://www.smashbros.com/wiiu-3ds/sp/images/character/mario/main.png",
-        "descripcion": "El fontanero más famoso del mundo, equilibrado y versátil, siempre listo para lanzar una bola de fuego o dar una poderosa patada giratoria."
-      },
-      {
-        "nombre": "Donkey Kong",
-        "url_imagen": "https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/main.png",
-        "descripcion": "El rey de la selva. Fuerte y pesado, capaz de aplastar enemigos con sus poderosos puños y lanzar barriles imaginarios con estilo."
-      },
-      {
-        "nombre": "Link",
-        "url_imagen": "https://images.wikidexcdn.net/mwuploads/esssbwiki/thumb/3/32/latest/20230118170552/Link_SSB4.png/800px-Link_SSB4.png",
-        "descripcion": "El héroe de Hyrule. Armado con espada, bumerán y bombas, es tan estratégico como valiente."
-      },
-      {
-        "nombre": "Samus",
-        "url_imagen": "",
-        "descripcion": "La cazadora galáctica con un traje blindado, misiles, rayos cargados y una movilidad sorpresiva."
-      },
-      {
-        "nombre": "Yoshi",
-        "url_imagen": "",
-        "descripcion": "La cazadora galáctica con un traje blindado, misiles, rayos cargados y una movilidad sorpresiva."
-      },
-      {
-        "nombre": "Kirby",
-        "url_imagen": "",
-        "descripcion": "Una bolita rosa capaz de absorber habilidades. Inocente en apariencia, mortal en combate."
-      },
-      {
-        "nombre": "Fox",
-        "url_imagen": "",
-        "descripcion": "El piloto espacial veloz, maestro de los reflejos y experto en ataques rápidos y certeros."
-      },
-      {
-        "nombre": "Pikachu",
-        "url_imagen": "",
-        "descripcion": "La electrizante mascota de Pokémon. Pequeño pero peligroso, con rayos que pueden fulminar hasta al más grande."
-      }
+    "accesorios": [
+      "El Equipo de Buceo en The Forest es un objeto esencial para explorar las profundidades submarinas de la península. Este conjunto, compuesto por aletas, máscara y tanque de oxígeno, permite respirar bajo el agua de forma ilimitada mientras lo llevas equipado. Puedes encontrarlo en varios lugares clave, como el fondo del lago de la cueva submarina (accesible desde la Cueva 6) o cerca de barcos hundidos en la costa. Su obtención es crucial para acceder a zonas de interés, como el laboratorio submarino o ciertas cuevas ocultas.",
+      "La Linterna en The Forest es una herramienta esencial de supervivencia que proporciona luz portátil en las oscuras cuevas y durante la noche. Puedes encontrarla comúnmente en cuevas, especialmente en la Cueva 1 (Dead Cave) o en campamentos abandonados cerca de la costa. También es posible obtenerla de algunos cadáveres de excursionistas o en botes varados. Su diseño clásico de linterna de mano la hace fácil de reconocer y su funcionalidad es inmediata al equiparla."
     ],
-    "areas": [
-      {
-        "nombre": "Peach's Castle",
-        "url_imagen": "",
-        "descripcion": "Una torre colorida con plataformas móviles, trampolines y un bloque sorpresa que puede cambiar el curso del combate."
-      },
-      {
-        "nombre": "Hyrule Castle",
-        "url_imagen": "",
-        "descripcion": "Un bastión legendario con muchos niveles, perfecto para combates caóticos. Cuidado con el torbellino que aparece de vez en cuando."
-      },
-      {
-        "nombre": "Sector Z",
-        "url_imagen": "",
-        "descripcion": "Combate en la nave Great Fox en el espacio. Los láseres enemigos y el amplio escenario hacen que siempre debas estar en movimiento."
-      }
+    "mutantes": [
+      "Armsy es uno de los mutantes más icónicos y peligrosos que encontrarás en la península. Reconocible por su enorme tamaño, múltiples brazos desproporcionados y su rugido gutural, este enemigo actúa como un \"minijefe\" común en las cuevas y en la superficie (especialmente después de varios días de supervivencia). Su diseño grotesco —un torso hinchado con extremidades retorcidas— lo convierte en una amenaza visualmente impactante.",
+      "Cowman es uno de los mutantes más brutales y resistentes del juego, reconocible por su enorme cabeza similar a la de una vaca y su cuerpo desproporcionadamente musculoso. Este enemigo actúa como un minijefe frecuente en cuevas profundas y, ocasionalmente, en la superficie después del día 15-20. Su diseño grotesco —con una mandíbula colgante y piel pálida— lo hace destacar incluso entre otros mutants. \nCuriosidades: \nSu nombre (\"Cowman\") proviene de su cabeza bovina y su sonido característico, similar a un mugido distorsionado. \nEn el final de la historia, se revela que los mutants como Cowman son resultados de experimentos con el Artifacto. \nEs más común en cuevas cercanas al laboratorio final, como la Cueva 7.",
+      "El Worm (o Gusano Mutante) es uno de los enemigos más extraños y peligrosos del juego, apareciendo únicamente en fases avanzadas (usualmente después del día 40+). Este monstruo está compuesto por múltiples segmentos serpentinos que se regeneran al ser cortados, creando una criatura caótica y difícil de controlar. Su diseño parece inspirado en pesadillas lovecraftianas, con texturas viscosas y movimientos impredecibles. \nComportamiento y habilidades \nAtaque segmentado: Cada parte de su cuerpo puede dañarte independientemente, rodeándote o estrangulándote si te acercas demasiado. \nRegeneración: Si cortas un segmento, este puede convertirse en un nuevo Worm pequeño, multiplicando la amenaza. \nDaño masivo: Sus golpes son rápidos y pueden destruir bases enteras en segundos, especialmente estructuras de madera. \nMovimiento errático: Se desplaza reptando o enrollándose, lo que dificulta apuntarle con armas a distancia."
+    ]
+  },
+  "terraria": {
+    "armaduras": [
+      "La Armadura de Bengala Solar es el conjunto definitivo para la clase cuerpo a cuerpo en Terraria. Con un diseño imponente y dorado que emite un brillo solar y llamas anaranjadas, esta armadura no solo ofrece una defensa excepcional (+78), sino que también potencia significativamente el daño cuerpo a cuerpo (+22%) y la velocidad de ataque (+15%). Su efecto más destacado es la \"Bengala Solar\", que genera explosiones ardientes al golpear enemigos, causando daño adicional en área. Además, incluye un Escudo Solar que reduce el daño recibido y quema a los enemigos cercanos con un aura ígnea. Ideal para jugadores que prefieren el combate cercano y agresivo.",
+      "Diseñada para los expertos en combate a distancia, la Armadura de Vórtice presenta un estilo futurista con tonos azules y verdes, acompañado de partículas de energía y humo tecnológico. Proporciona +62 de defensa y un aumento del 25% en daño a distancia, junto con un 20% de reducción en el consumo de munición. Su habilidad única, \"Cloaking\", permite volverse invisible al permanecer quieto, aumentando el daño infligido y reduciendo la amenaza. Además, los ataques tienen la posibilidad de lanzar cohetes de vórtice adicionales, devastando grupos de enemigos con facilidad. Perfecta para quienes dominan el combate estratégico a larga distancia.",
+      "La Armadura de Nebulosa es la elección óptima para los magos, con una apariencia cósmica que incluye una túnica flotante, tonos púrpuras y fragmentos de estrellas orbitando al jugador. Ofrece +46 de defensa, un incremento del 25% en daño mágico y un 20% de reducción en el coste de maná. Su efecto pasivo genera \"Cristales de Nebulosa\" al atacar, que orbitan al jugador y disparan automáticamente a los enemigos. También mejora la regeneración de maná al golpear objetivos, permitiendo un uso casi ininterrumpido de hechizos poderosos. Ideal para quienes disfrutan de un estilo de juego basado en hechizos y control del campo de batalla.",
+      "Como el conjunto definitivo para invocadores, la Armadura de Polvo Estelar luce un diseño etéreo con motivos celestiales y estrellas brillantes, incluyendo alas que simulan constelaciones. Aunque su defensa es la más baja (+38), compensa con un aumento del 30% en daño de invocación y +5 slots de invocaciones máximas. Su habilidad estrella es el \"Guardián Estelar\", un poderoso aliado que ataca automáticamente a los enemigos. Además, las invocaciones se benefician de una aura estelar que incrementa su daño. Este set es perfecto para jugadores que prefieren apoyarse en esbirros mientras evaden el combate directo."
     ],
-    "items": [
-      {
-        "nombre": "Beam Sword",
-        "url_imagen": "",
-        "descripcion": "Brilla con energía y extiende su alcance con cada golpe fuerte. Ideal para los que quieren pelear con estilo galáctico."
-      },
-      {
-        "nombre": "Pokeball",
-        "url_imagen": "",
-        "descripcion": "Al lanzarla, invoca un Pokémon salvaje que entra en acción, desde un explosivo Electrode hasta el lento pero molesto Snorlax."
-      },
-      {
-        "nombre": "Heart Container",
-        "url_imagen": "",
-        "descripcion": "Brilla con esperanza y recuperación. Restaura una gran parte del daño recibido y puede cambiar completamente el destino de la batalla."
-      }
+    "armas": [
+      "El Cenit es una de las espadas más poderosas de Terraria, obtenida tras derrotar a la Luna Lord. Esta espada legendaria no solo inflige un daño masivo, sino que también tiene un ataque único: al blandirla, dispara un rayo de luz que atraviesa enemigos y rebota en las paredes, aumentando su alcance. Su diseño combina elementos de las espadas más icónicas del juego, como la Terra Blade y la Star Fury, y su ataque automático la hace ideal para el combate cuerpo a cuerpo en situaciones de alto riesgo. Es el arma definitiva para jugadores que buscan poder puro y versatilidad.",
+      "La Terra Blade es una espada emblemática de Terraria, considerada un símbolo de progreso en el juego. Se forja combinando varias espadas legendarias, como la Espada de la Noche y la Espada de la Luz, y representa la unión de las fuerzas del bien y el mal. Al atacar, lanza ondas de energía verde que atraviesan múltiples enemigos, lo que la convierte en un arma excelente tanto a corta como a media distancia. Aunque no es la espada más fuerte del endgame, su balance entre daño, velocidad y utilidad la hace una opción confiable durante gran parte del juego.",
+      "El Terrariano es uno de los yoyos más poderosos de Terraria, obtenido en la Caja de Misterio (Modo Experto) del Duende Tumbero. Este yoyo no solo tiene un daño excepcional y un largo alcance, sino que también genera pequeñas explosiones al golpear enemigos. Su habilidad única permite que permanezca en el aire indefinidamente mientras se mantenga presionado el botón de ataque, lo que lo hace ideal para controlar multitudes. Es el arma perfecta para los amantes de los yoyos, combinando velocidad, daño y efectos visuales impresionantes.",
+      "El A.D.E.E. (también conocido como Daybreak) es una lanza arrojadiza obtenida de los Fragmentos Solares tras derrotar al Pilar Solar. Al lanzarla, se clava en los enemigos y aplica una potente quemadura solar que inflige daño continuo. Lo más destacado es que acumula explosiones en los objetivos, que detonan después de varios impactos, causando un daño masivo en jefes y enemigos resistentes. Es un arma excepcional para la clase cuerpo a cuerpo en el endgame, especialmente contra enemigos grandes o grupos.",
+      "El Último Prisma es el arma mágica definitiva en Terraria, obtenida de la Luna Lord. Este poderoso hechizo dispara un rayo láser continuo que inflige un daño devastador, pero consume maná extremadamente rápido. Cuando se mantiene activo, el láser se divide en múltiples haces, creando un efecto de \"prisma\" que puede borrar a los enemigos en segundos. Debido a su alto coste de maná, suele usarse junto con el Traje de Nebulosa y accesorios que reducen el consumo de maná. Es el arma preferida de los magos que buscan el máximo poder ofensivo.",
+      "El Caleidoscopio es uno de los mejores látigos del juego, obtenido como recompensa de la Luna Lord. Este látigo no solo inflige un daño elevado, sino que también aumenta el daño crítico de tus invocaciones y aplica un efecto de \"Afilado\", que hace que los enemigos reciban más daño de tus esbirros. Además, su ataque es extremadamente rápido y tiene un alcance mayor que la mayoría de látigos. Es esencial para los invocadores que quieren maximizar el daño de sus invocaciones mientras mantienen una buena capacidad defensiva."
+    ],
+    "accesorios": [
+      "El Escudo de Cthulhu es un accesorio exclusivo del Modo Experto, obtenido al derrotar al Ojo de Cthulhu en esta dificultad. Su principal habilidad es el dash (carga rápida), que permite al jugador desplazarse rápidamente en una dirección, atravesando enemigos e infligiendo daño al chocar con ellos. Además, otorga +4 de defensa y mejora la movilidad en combate, siendo especialmente útil para esquivar ataques de jefes o escapar de situaciones peligrosas. Es un accesorio casi obligatorio en las primeras etapas del modo experto y sigue siendo relevante incluso en fases avanzadas del juego.",
+      "El Escudo de Ankh es un accesorio defensivo de alto nivel que combina la Obisidiana Escudo y el Amuleto de Ankh. Proporciona inmunidad a 11 efectos negativos diferentes, como quemadura, congelación, veneno, maldición, silencio, oscuridad, lentitud, confusión, sangrado, rotura de armadura y envenenamiento. Además, otorga +2 de defensa y mejora la resistencia del jugador en combates difíciles. Aunque no ofrece beneficios ofensivos, su utilidad en situaciones donde los efectos negativos son frecuentes (como en el Inframundo o contra ciertos jefes) lo convierte en una elección valiosa para jugadores que priorizan la supervivencia.",
+      "La Terrachi spa es un accesorio exclusivo del Modo Maestro, obtenido al derrotar a la Reina Slime en esta dificultad. Este accesorio combina las habilidades del Globo de Fuego y el Escudo de Cthulhu, permitiendo al jugador realizar un doble salto y un dash mejorado. Además, otorga inmunidad al daño por caídas y aumenta ligeramente la velocidad de movimiento. Es una opción excelente para jugadores que buscan movilidad extrema desde las primeras etapas del juego, especialmente en el modo maestro, donde la capacidad de esquivar ataques es crucial.",
+      "El Caparazón Celestial es un accesorio potente que se obtiene al combinar el Caparazón de Tortuga con el Fragmento Solar. Este objeto está diseñado para la clase cuerpo a cuerpo, ya que convierte parte del daño recibido en un contraataque que inflige daño a los enemigos cercanos. Además, proporciona un aumento significativo a la defensa (+15) y mejora la regeneración de vida. Su efecto de contraataque lo hace especialmente útil en situaciones donde el jugador recibe muchos golpes, como en combates contra multitudes o jefes con ataques cuerpo a cuerpo. Es un accesorio clave para tanques en el endgame."
+    ],
+    "jefes": [
+      "Duke Fishron es un jefe opcional desafiante que puede invocarse pescando en el Océano con un Trucha Podrida. Este jefe temático acuático es conocido por su velocidad y ataques agresivos, como cargas rápidas, tornados de agua y burbujas explosivas. En su fase final (enraged), se vuelve aún más rápido si la batalla no ocurre en el océano. Sus recompensas incluyen armas poderosas como el Tsunami (arco), la Tempestad de Razorblade (espada) y las Alas de Fishron, unas de las mejores alas pre-Moon Lord. Derrotarlo requiere movilidad excepcional y dominio de los patrones de ataque.",
+      "La Emperatriz de la Luz es un jefe opcional diurno/noc turno que aparece al matar a una Mariposa de Prisma en el Hallow. Es considerada una de las peleas más difíciles del juego, especialmente durante el día, donde sus ataques son instantáneamente letales. Sus patrones incluyen ráfagas de proyectiles, dash es teleportaciones, y una habilidad llamada \"Danza de la Luna\" que requiere movimientos precisos. Si se vence de noche, suelta objetos como la Terraprisma (una espada de invocación legendaria) o el Caleidoscopio (látigo). Es un jefe para jugadores expertos que buscan un desafío extremo.",
+      "Plantera es un jefe obligatorio en el Hardmode, invocado al romper un Bulbo de Plantera en la Jungla Subterránea. Esta criatura en forma de planta gigante tiene dos fases: en la primera, se mueve lentamente y dispara semillas y espinas, mientras que en la segunda (cuando su vida baja al 50%), se vuelve más rápida y agresiva, con tentáculos que atacan al jugador. Derrotarla desbloquea el Templo de la Jungla y activa eventos como las Invasiones Pirata y el Ciclo de Marte. Sus gotas incluyen armas como la Venus Magnum (pistola) y el Lanzagranadas de Nettle.",
+      "El Moon Lord es el jefe final de Terraria, invocado tras derrotar a los Cuatro Pilares Celestiales o usando un Siglo de Luna. Este coloso cósmico tiene múltiples ojos que disparan rayos láser, tentáculos que generan enemigos menores y un ataque final llamado \"Muerte Celestial\". Su derrota otorga los Fragmentos Lunares y el Luminita, necesarios para craftear el equipo endgame más poderoso, como las armaduras celestiales (Nebulosa, Solar, etc.) y armas como el Último Prisma. Es la prueba definitiva de habilidad, requiriendo preparación minuciosa y estrategia."
     ]
   }
 }

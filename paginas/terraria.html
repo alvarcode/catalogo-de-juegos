@@ -52,31 +52,22 @@
         </p>
       </section>
 
-      <section id="seccion-1" class="seccion">
+      <section id="armaduras" class="seccion">
         <h3 class="titulo">Armaduras</h3>
 
         <div class="contenedor-elementos">
           <article class="elemento">
-            <img
-              src="https://ih1.redbubble.net/image.4555792056.4906/st,small,845x845-pad,1000x1000,f8f8f8.jpg"
-              alt="Imagen"
-            />
+            <img src="../recursos/armadura-de-bengala-solar.png" alt="Imagen" />
             <h4>Armadura de bengala solar</h4>
           </article>
 
           <article class="elemento">
-            <img
-              src="https://i.redd.it/ash-vortex-armor-vortex-beater-from-terraria-v0-ymffiayts8ne1.jpg?width=600&format=pjpg&auto=webp&s=23429ad71b123d3ef88ed95c5db158ba620bbf0f"
-              alt="Imagen"
-            />
+            <img src="../recursos/armadura-de-vortice.png" alt="Imagen" />
             <h4>Armadura de vortice</h4>
           </article>
 
           <article class="elemento">
-            <img
-              src="https://ih1.redbubble.net/image.1300415763.1182/st,small,507x507-pad,600x600,f8f8f8.u3.jpg"
-              alt="Imagen"
-            />
+            <img src="../recursos/armadura-de-nebulosa.png" alt="Imagen" />
             <h4>Armadura de nebulosa</h4>
           </article>
 
@@ -90,7 +81,7 @@
         </div>
       </section>
 
-      <section id="seccion-2" class="seccion">
+      <section id="armas" class="seccion">
         <h3 class="titulo">Armas</h3>
 
         <div class="contenedor-elementos">
@@ -141,7 +132,7 @@
         </div>
       </section>
 
-      <section id="seccion-3" class="seccion">
+      <section id="accesorios" class="seccion">
         <h3 class="titulo">Accesorios</h3>
 
         <div class="contenedor-elementos">
@@ -176,7 +167,7 @@
         </div>
       </section>
 
-      <section id="seccion-4" class="seccion">
+      <section id="jefes" class="seccion">
         <h3 class="titulo">Jefes</h3>
 
         <div class="contenedor-elementos">
@@ -214,5 +205,30 @@
         </div>
       </section>
     </div>
+
+    <!-- permite usar el modal -->
+    <script type="module">
+      import modal from "../componentes/detalle-elemento/detalle-elemento.js";
+
+      document.querySelectorAll(".pagina > .seccion").forEach((seccion, i) => {
+        if (i == 0) return;
+
+        document
+          .querySelectorAll(`#${seccion.id} .elemento`)
+          .forEach((elemento, i) =>
+            elemento.addEventListener("click", () =>
+              modal.mostrar(
+                "terraria", // ajustar según nombre de juego en JSON
+                seccion.id,
+                i,
+                elemento.children[0].src,
+                elemento.children[1].innerText
+              )
+            )
+          );
+      });
+
+      modal.cargar();
+    </script>
   </body>
 </html>
